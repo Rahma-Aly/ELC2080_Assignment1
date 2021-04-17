@@ -1,1 +1,1 @@
-this project is a part of course ELC2080 assignment
+this is a part of course ELC2080 assignment
