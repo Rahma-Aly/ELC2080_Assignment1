@@ -5,7 +5,7 @@ typedef struct node
 {
 char std_name[30];
 int id;
-struct bd { int  day,month,year;};
+int bd[3];
 int score;
 struct node* next;
 } Node;
