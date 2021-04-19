@@ -12,7 +12,7 @@ struct node* next;
 
 int main()
 {
-printf("welcome\nteam members:\nJanna Sallam\nRahma Aly\nZahrah walid");
+printf("\twelcome\nteam members:Janna Sallam Rahma Aly Zahrah walid");
 Node* n_ptr;
 return 0;
 }
