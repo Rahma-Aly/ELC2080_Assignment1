@@ -49,7 +49,7 @@ student *insert_std(student *ptr)
     printf("please enter the location where the student is inserted\n (enter an integer from 1 till %d): ", size_array);
     relocate:
     scanf("%d", &location);
-    if(location>size_array)
+    if(location<1 || location>size_array)
     {
         printf("\nInvalid number, enter an integer from 1 till %d: ", size_array);
         goto relocate;
